@@ -1,12 +1,11 @@
-# SAFETY: Secure gwAs in Federated Environment Through a hYbrid solution with Intel SGX and Homomorphic Encryption
-## WebGWASSGX project
-WebGWASSGX is the web socket program in java which communicates with different data owners, parties and SGX program mentioned in the paper. Its a maven built system and uses Java EE7 and Glassfish 4 server.
-
+# SAFETY: Secure gwAs in Federated Environment Through a hYbrid solution
 ##GWAS SGX project
-GWAS SGX project contains teh paillier implementation for intel SGX architechture. The final exe file is used by the WebGWASSGX project. The inputs to this program is passed as arguments. 
+It is a hybrid cryptographic framework based on Homomorphic Encryption (paillier cryptosystem) and Intel Software Guard Extension. The final executable is used by the WebGWASSGX project (decribed below). The inputs to this program are passed as command line arguments. 
+
+## WebGWASSGX project
+WebGWASSGX is the web socket program in java which communicates with different data owners, Crypto Service Provider, and SGX program mentioned in the paper. Its a maven built system and uses Java and Glassfish 4 server.
 
 
-![alt text][logo]
 
-[logo]: http://www.cs.umanitoba.ca/~bruce/umanlogotight.jpg "University of Manitoba"
+
 	
