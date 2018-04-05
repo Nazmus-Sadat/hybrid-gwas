@@ -1,0 +1,13 @@
+﻿Build started 5/15/2017 5:17:47 PM.
+     1>Project "C:\Users\sadat\MyDrive\SAFETY Review\SafetyGWAS-master\SAFETY\isv_app\isv_app.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2017\windows\bin\intel64\xilink.exe -qm32 /OUT:"C:\Users\sadat\MyDrive\SAFETY Review\SafetyGWAS-master\SAFETY\Debug\isv_app.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\sample_libcrypto\Win32\ /LIBPATH:"C:\Users\sadat\MyDrive\SAFETY Review\SafetyGWAS-master\SAFETY\Debug\\" /LIBPATH:"C:\Program Files (x86)\Intel\IntelSGXSDK\\bin\Win32\Debug" /WX sgx_ukey_exchange.lib sgx_uae_service.lib sgx_urts.lib service_provider.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /manifest:embed /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\sadat\MyDrive\SAFETY Review\SafetyGWAS-master\SAFETY\Debug\isv_app.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\sadat\MyDrive\SAFETY Review\SafetyGWAS-master\SAFETY\Debug\isv_app.lib" /MACHINE:X86 Debug\isv_app.obj
+         Debug\isv_enclave_u.obj
+         Debug\stdafx.obj
+     1>ipo: : error #11018: Cannot open service_provider.lib
+     1>LINK : fatal error LNK1104: cannot open file 'service_provider.lib'
+     1>Done Building Project "C:\Users\sadat\MyDrive\SAFETY Review\SafetyGWAS-master\SAFETY\isv_app\isv_app.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.18

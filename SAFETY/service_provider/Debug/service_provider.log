@@ -1,0 +1,9 @@
+﻿  dllmain.cpp
+  service_provider.cpp
+c:\users\sadat\mydrive\safety review\safetygwas-master\safety\service_provider\service_provider.cpp(592): warning C4189: 'OUTPUT': local variable is initialized but not referenced
+  network_ra.cpp
+  ias_ra.cpp
+  ecp.cpp
+  Default key derivation function is used.
+  Generating Code...
+LINK : fatal error LNK1104: cannot open file 'sample_libcrypto.lib'
