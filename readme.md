@@ -1,5 +1,4 @@
 # SAFETY: Secure gwAs in Federated Environment Through a hYbrid solution
-##GWAS SGX project
 It is a hybrid cryptographic framework based on Homomorphic Encryption (paillier cryptosystem) and Intel Software Guard Extension. The final executable is used by the WebGWASSGX project (decribed below). The inputs to this program are passed as command line arguments. 
 
 ## WebGWASSGX project
